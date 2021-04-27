@@ -9,6 +9,11 @@ Throughout this project, two approaches were used to create a macro that would c
 ### Method One: Single Array Approach
 The first approached used for this analysis utilized a single array that held the value of each ticker label. This method relied on a nexted For Loop that would loop through each ticker then through earch row in the yearly data set and collect information based on whether the first column matched the ticker: (For i = 0 to 11 > ticker=tickers(i) > For j rowStart to rowcount --> If Cells (j,1)=ticker Then...)
 
+![Module-2018wFormatting](https://user-images.githubusercontent.com/81983110/116316994-c05e7380-a780-11eb-968b-08110a3b6f47.png)
+![Refactor-2017wFormatting](https://user-images.githubusercontent.com/81983110/116316998-c18fa080-a780-11eb-952d-2cad2d7d91c7.png)
+![Refactor-2018wFormatting](https://user-images.githubusercontent.com/81983110/116316999-c18fa080-a780-11eb-88dd-c7c6622809d2.png)
+
+
 
 The written analysis contains the following structure, organization, and formatting:
 
